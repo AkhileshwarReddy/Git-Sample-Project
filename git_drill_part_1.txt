@@ -1,0 +1,33 @@
+GIT Drills:
+
+1. i.  mkdir git_sample_project
+   ii. cd git_sample_project
+2. git init .
+3. touch a.txt b.txt c.txt
+4. i.  cat > a.txt
+   ii. cat > b.txt
+   iii.cat > c.txt
+5. git add a.txt b.txt
+6. git status
+7. git commit -m "Add a.txt and b.txt"
+8. git status
+9. git log
+10. git checkout -b new
+11. i. git add c.txt
+    ii.git commit -m "Add c.txt"
+12. i. git checkout master
+    ii.git merge new
+13. git remote add origin git@gitlab.com:mountblue/cohort-14-ruby/akhil/git-sample-project.git
+14. git push -u origin master
+15. i.  mkdir git_sample_project_2
+    ii. cd git_sample_project_2
+    iii.git clone git@gitlab.com:mountblue/cohort-14-ruby/akhil/git-sample-project.git .
+16. i. touch d.txt
+    ii.git add d.txt
+17. i. git commit -m "Add d.txt"
+    ii.git push
+18. cd ../git_sample_project
+19. git pull
+20. i.  cp ./git_drill_part_1.txt ./git_sample_project
+    ii. git commit -m "Add git_drill_part_1.txt"
+    iii.git push
