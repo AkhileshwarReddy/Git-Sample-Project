@@ -29,5 +29,6 @@ GIT Drills:
 18. cd ../git_sample_project
 19. git pull
 20. i.  cp ./git_drill_part_1.txt ./git_sample_project
-    ii. git commit -m "Add git_drill_part_1.txt"
-    iii.git push
+    ii. git add git_drill_part_1.txt
+    iii.git commit -m "Add git_drill_part_1.txt"
+    iv. git push
